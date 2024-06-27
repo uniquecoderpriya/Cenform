@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hi {
+  margin: 10px 5px 10px 5px;
+  padding: 2px;
+  position: relative;
+  max-width: 1250px;
+  text-align: center;
+  background-size: cover;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.outer-box {
+  width: 100vw;
+  max-height: inherit;
+  background: linear-gradient(to top left, #e6cf25, #8b8b11);
+  background-size: cover;
+  padding-top: 60px; /* Adjusted padding-top to make space for the navbar */
+}
+
+.inner-box {
+  width: 600px; /* Adjust width as needed */
+  margin: 0 auto;
+  padding: 50px;
+  background: linear-gradient(to top left, #ffffffff, #ffffff33);
+  mask-composite: blur(8px);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #2773a5;
+  overflow-y: auto;
+  max-height: calc(100vh - 200px); /* Limit the height of the card to fit within the viewport */
+}
+
+.member-box {
+  margin-bottom: 20px;
+}
+
+.member-box input,
+.member-box select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 2px solid #cccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-top: 4px;
+}
+
+.member-box select {
+  margin-top: 4px;
+}
+
+.member-box button {
+  margin-top: 10px;
+}
+
+.details h1 {
+  font-size: 2.5rem;
+  color: #212121;
+}
+
+.details p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.details-body {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.details-body {
+  margin: 20px 0;
+}
+
+.details-body p {
+  margin: 10px 0;
+}
+
+.details-body p label {
+  display: block;
+  font-weight: bold;
+}
+
+.details-body input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #cccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-top: 4px;
+}
+
+.details-body p input[type="submit"] {
+  background-color: #368cc6;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px; /* Added margin-top */
+}
+
+.details-body p input[type="submit"]:hover {
+  background-color: #21638f;
+}
+
+.member-box button:last-child {
+  position: sticky;
+  bottom: 20px; /* Adjusted bottom spacing */
+}
+
+.member-box button:nth-last-child(2) {
+  margin-bottom: 10px; /* Added margin-bottom */
+}
+
+@media only screen and (max-width: 600px) {
+  .outer-box {
+    background: linear-gradient(to top left, #e6cf25, #8b8b11);
+  }
+  .hi {
+    width: 90%;
+    margin-left: 8% !important;
+    display: block;
+    margin-right: auto;
+    height: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,17 @@
+/* dashboardStyles.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    min-height: 100vh; /* Set min-height to 100% of the viewport height */
+  }
+  
+  .container {
+    width: 100%;
+    min-height: 100vh; /* Set min-height to 100% of the viewport height */
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+  }
+  

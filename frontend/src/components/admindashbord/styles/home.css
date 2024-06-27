@@ -1,0 +1,82 @@
+/* HomePage.css */
+html, body {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    height: 100%; /* Set height to 100% of the viewport height */
+    background-color: white; /* Set background color to white */
+    overflow: auto; /* Enable scrolling if content overflows */
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    text-align: center; /* Center align the text */
+    background-color: white; /* Set background color to white */
+}
+
+.container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.container p:last-child {
+    margin-bottom: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Add margin from the top */
+}
+
+table th,
+table td {
+    padding: 12px; /* Increase padding for better spacing */
+}
+
+table th {
+    background-color: black;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table tr:hover td {
+    color: black;
+}
+
+table tr td {
+    border: 1px solid black;
+}
+
+.total-count {
+    font-size: 20vw; /* Set font size to 20vw */
+}
+
+/* Text box styling */
+.text-box {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    transition: all 0.3s ease; /* Add transition effect */
+}
+
+.text-box:hover {
+    transform: scale(1.05); /* Increase size on hover */
+}

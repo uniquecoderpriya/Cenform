@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #root {
+    height: 100%; /* Ensure the root element fills the entire viewport height */
+  }
+  
+  .container {
+    min-height: 100%; /* Ensure the container fills the entire viewport height */
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  

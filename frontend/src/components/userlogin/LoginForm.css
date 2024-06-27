@@ -1,0 +1,57 @@
+.login-container {
+  width: 300px;
+  margin: 50px auto; /* Maintain distance from the navbar */
+  padding: 40px 20px; /* Add vertical padding */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #d0d191;
+  animation: color-change 10s infinite alternate;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: #e1852e;
+  }
+  50% {
+    background-color: #aec07d;
+  }
+  100% {
+    background-color: #c57eb7;
+  }
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='password'] {
+  width: calc(100% - 16px); /* Adjust width to account for border and padding */
+  padding: 8px;
+  border: 1px solid #4fabbb;
+  border-radius: 3px;
+}
+
+button {
+  width: calc(100% - 16px); /* Adjust width to account for border and padding */
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #452a2a;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
